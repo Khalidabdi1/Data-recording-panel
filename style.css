@@ -1,0 +1,46 @@
+body{
+    background-color: oklch(0.13 0.028 261.692);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+input{
+    background-color: oklch(1 0 0 / 15%);
+    border: none;
+}
+
+.number{
+    color: oklch(0.928 0.006 264.531);
+}
+
+ tr{
+    color: oklch(0.928 0.006 264.531);
+    width: 300px;
+ 
+}
+
+table{
+    
+    height: auto;
+    width: 600px;
+}
+
+label{
+    color: oklch(0.928 0.006 264.531);
+ 
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ADD{
+    margin-top: 10px;
+    background-color: oklch(0.928 0.006 264.531);
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>JAVASCRIPT</title>
+</head>
+<body>
+
+    <form>
+    <label for="number" class="number">Amount</label>
+    <input type="number" id="number" class="number-input"> 
+    
+    <label for="Method">Method</label>
+    <select id="Method" class="methods">
+        <option>Credit Card</option>
+        <option>PayPal</option>
+        <option>Bank Transfer</option>
+        
+
+    </select>
+<label for="Status">Status</label>
+    <select id="Status" class="Status">
+        <option>Paid</option>
+        <option>Pending</option>
+        <option>Unpaid</option>
+
+    </select>
+    <input type="button" value="ADD" class="ADD">
+
+</form>
+
+
+
+
+    <table>
+        <thead>
+        <tr>
+            <td>Invoice</td>
+            <td>Status</td>
+            <td>Method</td>
+            <td>Amount</td>
+        </tr>
+       
+        </thead>
+
+        <tbody class="table-body">
+            
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="Total"></td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
